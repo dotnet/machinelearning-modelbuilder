@@ -5,9 +5,9 @@ Developers with no ML expertise can use this simple visual interface to connect 
 
 Model Builder leverages best in class automated machine learning (AutoML) to evaluate different models. It produces the best model for your scenario without any tuning required from the developer.
 
-At the end, developers can generate code for training and consuming this model in their applications. 
+At the end, developers can generate code for training and consuming this model in their applications.
 
-<img src="assets/ml-dotnet-model-builder.gif">
+<img src=".github/ml-dotnet-model-builder.gif">
 
 
 This readme provides the following details for Model Builder:
