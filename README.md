@@ -33,11 +33,6 @@ This is the first preview of Model Builder and has the following limitations. We
 * SQL Server has a limit of 100K rows for training
 * Microsoft SQL Server Data Tools for Visual Studio 2017 is not supported.
 
-
-# Contributing
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
 # Legal Notices
 
 .NET Foundation and any contributors grant you a license to the .NET Foundation documentation and other content
