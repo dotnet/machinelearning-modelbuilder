@@ -1,6 +1,10 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: | 
+  Create a report to help us improve. 
+  **Search first:** Search, vote, and comment on the duplicate issues to save time. [See all GitHub issues](https://github.com/dotnet/machinelearning-modelbuilder/issues). 
+  **Use specific titles:** Provide clear titles and details, and share your research to help us understand your feedback.
+  **Separate bugs:** If there are multiple problems, submit them as separate issues.
 title: ''
 labels: ''
 assignees: ''
