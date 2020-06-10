@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help us improve.
+name: Issue: Report a bug
+about: Help us improve Model Builder.
 title: ''
 labels: ''
 assignees: ''
