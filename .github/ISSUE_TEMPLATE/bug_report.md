@@ -1,5 +1,5 @@
 ---
-name: Issue- Report a bug
+name: Report a bug
 about: Help us improve Model Builder.
 title: ''
 labels: ''
