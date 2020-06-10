@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Suggest a feature
+about: Share your ideas to make Model Builder better.
 title: ''
 labels: ''
 assignees: ''
