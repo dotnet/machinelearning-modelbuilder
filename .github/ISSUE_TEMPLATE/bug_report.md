@@ -1,6 +1,7 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a report to help us improve. 
+Search first: Search, vote, and comment on the duplicate issues to save time. See all GitHub issues
 title: ''
 labels: ''
 assignees: ''
