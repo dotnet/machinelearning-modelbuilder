@@ -1,6 +1,6 @@
 ---
 name: Report an accessibility bug
-about: Help us improve Model Builder.
+about: Bug report for accessibility testing.
 title: ''
 labels: 'Accessibility'
 assignees: ''
