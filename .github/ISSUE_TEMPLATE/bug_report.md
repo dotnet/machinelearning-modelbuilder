@@ -12,7 +12,8 @@ assignees: ''
  - Visual Studio Version
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+- On which step of the process did you run into an issue:
+- Clear description of the problem:
 
 **To Reproduce**
 Steps to reproduce the behavior:
