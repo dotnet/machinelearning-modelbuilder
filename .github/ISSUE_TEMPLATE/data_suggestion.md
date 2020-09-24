@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Model Builder currently supports two data sources, local files (.csv and .tsv) and SQL tables. We understand your data is in many different places and shapes. We'd like to understand 
+Model Builder currently supports two data sources, local files (.csv and .tsv) and SQL tables. We understand your data is in many different places and shapes. We'd like to understand where your data comes from so we can better support your scenario in Model Builder.
 
 **Where is your data located?**
 A clear and concise description of where you data is. i.e. Local json file, Cosmos DB,  [...]
