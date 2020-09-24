@@ -1,3 +1,12 @@
+---
+name: Data format suggesion
+about: Tell us about your data.
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 Model Builder currently supports two data sources, local files (.csv and .tsv) and SQL tables. We understand your data is in many different places and shapes. We'd like to understand 
 
 **Where is your data located?**
