@@ -1,6 +1,6 @@
 ---
 name: Report a bug (Getting Started experience)
-about: Help us improve Model Builder by reporting the problems you ran into getting started.
+about: Help us improve ML.NET tooling by reporting the problems you ran into getting started.
 title: ''
 labels: 'GS Tutorial'
 assignees: ''
