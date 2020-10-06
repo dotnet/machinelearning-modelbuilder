@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **System Information (please complete the following information):**
- - Model Builder of CLI Version: 
+ - Model Builder or CLI Version: 
  - Visual Studio Version (if applicable):
 
 **Describe the bug**
