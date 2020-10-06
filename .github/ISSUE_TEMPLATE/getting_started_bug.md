@@ -8,8 +8,8 @@ assignees: ''
 ---
 
 **System Information (please complete the following information):**
- - Model Builder Version: 
- - Visual Studio Version
+ - Model Builder of CLI Version: 
+ - Visual Studio Version (if applicable):
 
 **Describe the bug**
 - On which page of the tutorial did you run into an issue (URL):
