@@ -3,9 +3,9 @@ If troubleshooting does not solve the problem, please file a bug [here](https://
 
 ## Runtime error in code: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.ML.Data'. 
 
-Most likely you added Machine Learning to a .NET Full Framework project. The `System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.ML.Data'` error is caused by a mismatch in Nuget reference styles between your .NET Full Framework project and Model Builder's generated .NET core projects. To resolve you must update your project to use [PackageReference](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files). 
+Most likely you added Machine Learning to a .NET Full Framework project. The `System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.ML.Data'` error is caused by a mismatch in Nuget reference styles between your .NET Full Framework project and Model Builder's generated .NET core projects. 
 
-To get unblocked, you will need to make your project compatible with our .NET core projects. Here are a few options... 
+To resolve the problem you will need to make your project compatible with our .NET core projects by using [PackageReference](https://docs.microsoft.com/en-us/nuget/consume-packages/package-references-in-project-files). Here are a few options... 
 
 1. If experimenting with a new project, start again with a new .NET Core project. 
 2. If you have a new .NET Framework project it may already be in PackageReference format. PackageReference format will still fail if it has no references added. If you have no packages.config file this is likely your situation. You can get unblocked by... 
