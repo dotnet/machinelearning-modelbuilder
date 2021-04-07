@@ -1,6 +1,20 @@
 # Troubleshooting for Model Builder
 If troubleshooting does not solve the problem, please file a bug [here](https://github.com/dotnet/machinelearning-modelbuilder/issues/new?template=bug_report.md). 
 
+## Dev Team Cannot Reproduce (no constant repro on other machines) 
+
+Some users of VS Preview Builds have run into a problem that despite the extension manager reporting the newest version is installed, an older UI is showing. This is a bug in our extension versioning and you need to completely uninstall Model Builder to resolve. 
+
+To fix... 
+
+1. Uninstall Model Builder from the Extension Manager (in VS: Extensions -> Manage Extensions) and from the VS Installer (in Visual Studio Installer -> Modify Version -> .NET Desktop Development -> ML.NET Model Builder Preview)
+2. Ensure Model Builder has been completely removed from this version of VS. It should not show in the extension manager or on right click -> Add Machine Learning. 
+3. Reinstall Model Builder in the VS Installer. Update to the latest version from the [marketplace](https://marketplace.visualstudio.com/items?itemName=MLNET.07&ssr=false#overview). 
+
+You should now see an updated UI similar to... 
+![image](https://user-images.githubusercontent.com/9122518/113899044-06cc3e00-9792-11eb-85e4-79a6b0d747e6.png)
+
+
 ## Runtime error in code: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.ML.Data'. 
 
 Most likely you added Machine Learning to a .NET Full Framework project. The `System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.ML.Data'` error is caused by a mismatch in Nuget reference styles between your .NET Full Framework project and Model Builder's generated .NET core projects. 
