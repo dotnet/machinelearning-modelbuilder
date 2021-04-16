@@ -7,7 +7,8 @@ Some users of VS Preview Builds have run into a problem that despite the extensi
 
 To fix... 
 
-1. Uninstall Model Builder from the Extension Manager (in VS: Extensions -> Manage Extensions) and from the VS Installer (in Visual Studio Installer -> Modify Version -> .NET Desktop Development -> ML.NET Model Builder Preview)
+1. Uninstall (or revert) Model Builder from the Extension Manager (in VS: Extensions -> Manage Extensions) and from the VS Installer (in Visual Studio Installer -> Modify Version -> .NET Desktop Development -> ML.NET Model Builder Preview)
+	- If you encounter a problem removing Model Builder from the VS Installer, it can be a sign that your Model Builder extension installation had been corrupted (this happened for a few preview builds in 2020). You may need to uninstall that version of VS.	
 2. Ensure Model Builder has been completely removed from this version of VS. It should not show in the extension manager or on right click -> Add Machine Learning. 
 3. Reinstall Model Builder in the VS Installer. Update to the latest version from the [marketplace](https://marketplace.visualstudio.com/items?itemName=MLNET.07&ssr=false#overview). 
 
