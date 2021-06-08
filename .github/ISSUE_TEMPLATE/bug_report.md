@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **System Information (please complete the following information):**
- - Model Builder Version: 
+ - Model Builder Version (available in Manage Extensions dialog): 
  - Visual Studio Version
 
 **Describe the bug**
