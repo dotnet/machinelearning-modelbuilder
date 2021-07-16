@@ -1,6 +1,6 @@
 THIS IS WORK IN PROGRESS 
 
-Setting up a pieline to enable continuous integration of an ML model. 
+Setting up a pipeline to enable continuous integration of an ML model. 
 1. Checkin the mbconfig file to your repo
 2. Add new pipeline in Azure Pipelines
 3. Setup AML permissions to Azure Devops
