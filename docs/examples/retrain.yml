@@ -52,4 +52,4 @@ steps:
     azureSubscription: $(ml-ws-connection)
     scriptLocation: inlineScript
     scriptType: 'bash'
-    inlineScript: 'az ml job create --file azure.yml'
+    inlineScript: 'az ml job create --file aml.yml'
