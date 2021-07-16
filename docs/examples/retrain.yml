@@ -1,0 +1,55 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+variables:
+  ml-ws-connection: '<azure-pipeline-connection>' # Workspace Service Connection name
+  ml-ws: '<workspace>' # AML Workspace name
+  ml-rg: '<resource-group>' # AML resource Group name
+  ml-ct: '<compute>' # AML Compute cluster name
+
+trigger:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - <mbconfig-file-path>
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- task: AzureCLI@2
+  displayName: 'Set config functionality'
+  inputs:
+    azureSubscription: $(ml-ws-connection)
+    scriptLocation: inlineScript
+    scriptType: 'bash'
+    inlineScript: 'az config set extension.use_dynamic_install=yes_without_prompt'
+    
+- task: AzureCLI@2
+  displayName: 'Install AML CLI (azureml-v2-preview)'
+  inputs:
+    azureSubscription: $(ml-ws-connection)
+    scriptLocation: inlineScript
+    scriptType: 'bash'
+    inlineScript: 'az extension add -n ml'
+
+- task: AzureCLI@2
+  displayName: 'Setup default config values'
+  inputs:
+    azureSubscription: $(ml-ws-connection)
+    scriptLocation: inlineScript
+    scriptType: 'bash'
+    inlineScript: 'az config set defaults.group="$(ml-rg)" && az config set defaults.workspace="$(ml-ws)"'
+
+- task: AzureCLI@2
+  displayName: 'Create training job'
+  inputs:
+    azureSubscription: $(ml-ws-connection)
+    scriptLocation: inlineScript
+    scriptType: 'bash'
+    inlineScript: 'az ml job create --file azure.yml'
