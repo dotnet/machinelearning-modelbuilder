@@ -1,0 +1,11 @@
+# File specifying experiment for Azure ML
+experiment_name: <experiment_name>
+code:
+  local_path: .
+command: mlnet classification --dataset "yelp_labelled.txt" --label-col 1 --has-header false --train-time 10 --output outputs --log-file-path outputs/logs
+compute:
+  target: azureml:<compute_name>
+environment: 
+    docker:
+      build:
+        dockerfile: file:DOCKERFILE
