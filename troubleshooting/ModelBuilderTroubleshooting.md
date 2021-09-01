@@ -5,7 +5,8 @@ If troubleshooting does not solve the problem, please file a bug [here](https://
 
 "Add Machine Learning" isn't an option in the right click menu: 
 1. Model Builder can only be added to C# projects. VB is not supported at this time. 
-2. Is the extension installed and enabled? You may have disabled the extension at some point due to a performance warning. Check _Extensions -> Manage Extensions -> Installed_. ML.NET Model Builder should be listed and enabled.  
+2. Is the extension installed and enabled? You may have disabled the extension at some point due to a performance warning. Check _Extensions -> Manage Extensions -> Installed_. ML.NET Model Builder should be listed and enabled.
+3. Is it a UWP Project? There is a known issue - [#1715](https://github.com/dotnet/machinelearning-modelbuilder/issues/1715). Current work around is to create an empty file with extension '.mbconfig'. In VS the file should open in the Model Builder experience. 
 
 I've clicked "Add Machine Learning" and nothing happened or an error happened:
 1. The first time "Add Machine Learning" is clicked VS will prompt you to enable the feature (different than the extension being enabled). You can find this setting in _Options -> Environment -> Preview Features -> Enable ML.NET Model Builder._  After the feature is enabled you'll need to click "Add Machine Learning" again. 
