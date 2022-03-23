@@ -1,6 +1,7 @@
 name: Project automation
 
 on:
+  workflow_dispatch:
   issues:
     types:
       - opened
