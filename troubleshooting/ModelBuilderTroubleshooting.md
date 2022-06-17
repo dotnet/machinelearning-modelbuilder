@@ -1,6 +1,17 @@
 # Troubleshooting for Model Builder
 If troubleshooting does not solve the problem, please file a bug [here](https://github.com/dotnet/machinelearning-modelbuilder/issues/new?template=bug_report.md). 
 
+## Cannot run code from tutorial because PredictedLabel does not exist
+
+In a newer version of ML.NET the property `Prediction` was renamed to `PredictedLabel`. You are referencing an older version of ML.NET. There are a few options for resolving this. 
+- Change `PredictedLabel` to `Prediction`.
+- Update ML.NET to 1.7.1
+- Update Model Builder version to the [latest]([url](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)) and re-train the model 
+
+## Reset VS 
+
+Sometimes Model Builder doesn't update correctly and VS is still referencing older Model Builder code. If uninstalling and re-installing Model Builder doesn't work, we recommend doing a [clean install of VS](https://docs.microsoft.com/en-us/visualstudio/install/uninstall-visual-studio?view=vs-2019#remove-all-with-installcleanupexe). 
+
 ## I cannot "Add Machine Learning" to my project
 
 "Add Machine Learning" isn't an option in the right click menu: 
