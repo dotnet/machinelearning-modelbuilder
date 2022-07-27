@@ -1,39 +1,46 @@
-## Introduction
-Model Builder is a simple UI tool that runs locally for developers to build, train and ship custom machine learning models in your applications. [Try Model Builder preview now!](https://aka.ms/mlnettemplates). 
+# Model Builder
 
-Developers with no ML expertise can use this simple visual interface to connect to their data stored in files, SQL Server and more for training the model.
+Model Builder is a UI tool Visual Studio that lets you build, train and consume custom machine learning models in your applications.
 
-Model Builder leverages best in class automated machine learning (AutoML) to evaluate different models. It produces the best model for your scenario without any tuning required from the developer.
+With little to no machine learning expertise you can use this visual interface to connect to your data stored in files or SQL Server.
 
-At the end, developers can generate code for training and consuming this model in their applications.
+Model Builder leverages best in class automated machine learning (AutoML) to train and evaluate different algorithms. It produces the best model for your scenario and data without any tuning required from you.
 
-<img src=".github/ml-dotnet-model-builder.gif">
+After training, you can generate code for training and consuming this model in their applications.
 
+![GIF of Model Builder](.github/ml-dotnet-model-builder.gif)
 
-This readme provides the following details for Model Builder:
-* <a href="https://github.com/dotnet/machinelearning-samples/blob/master/modelbuilder/readme.md#Installation">Installation</a>
-* <a href="https://dotnet.microsoft.com/learn/machinelearning-ai/ml-dotnet-get-started-tutorial/intro">Getting started tutorial</a>
-* [Documentation](https://aka.ms/modelbuilderdocs)
-* [Limitations](https://github.com/dotnet/machinelearning-samples/blob/master/modelbuilder/readme.md#Limitations)
+Get started with Model Builder using the following resources:
+
+- [Installation](https://github.com/dotnet/machinelearning-samples/blob/master/modelbuilder/readme.md#Installation)
+- [Getting started tutorial](https://dotnet.microsoft.com/learn/machinelearning-ai/ml-dotnet-get-started-tutorial/intro)
+- [Documentation](https://aka.ms/modelbuilderdocs)
+- [Limitations](https://github.com/dotnet/machinelearning-samples/blob/master/modelbuilder/readme.md#Limitations)
 
 ## Installation
 
-Model Builder can be installed on Visual Studio 2017/ 2019. You can install it by clicking "Download" from the [Visual Studio Marketplace](https://aka.ms/mlnettemplates)
+### Prerequisites
 
+- Visual Studio 2022 or Visual Studio 2019
+- .NET Core 3.1 SDK or later
 
-**Pre-requisites**
-* Visual Studio 2017 15.6 or later or Visual Studio 2019
-* All SKU's of Visual Studio
-* .NET Core 2.1 SDK
+Model Builder is built into Visual Studio 2022 and Visual Studio 2019. For installation instructions, see the [Model Builder installation guide](https://docs.microsoft.com/dotnet/machine-learning/how-to-guides/install-model-builder?tabs=visual-studio-2022).
+
+Alternatively, you can install Model Builder from the Visual Studio marketplace
+
+- [Model Builder for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)
+- [Model Builder for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=MLNET.07)
+(https://aka.ms/mlnettemplates)
 
 ## Limitations
-This is the first preview of Model Builder and has the following limitations. We are actively working on improving the experience in the future releases.
 
-* There is a limit of 1GB on the training dataset.
-* SQL Server has a limit of 100K rows for training
-* Microsoft SQL Server Data Tools for Visual Studio 2017 is not supported.
+- ML.NET Model Builder Extension currently only works on Visual Studio on Windows.
 
-# Legal Notices
+## How can I contribute?
+
+Help us improve ML.NET tooling by filing issues and providing feedback on feature requests and bugs. For general guidance, see the [filing an issue guide](./File%20a%20bug.md).  
+
+## Legal Notices
 
 .NET Foundation and any contributors grant you a license to the .NET Foundation documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
