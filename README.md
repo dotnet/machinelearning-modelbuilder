@@ -1,6 +1,6 @@
 # Model Builder
 
-Model Builder is a UI tool Visual Studio that lets you build, train and consume custom machine learning models in your applications.
+Model Builder is a UI tool in Visual Studio that lets you build, train and consume custom machine learning models in your applications.
 
 With little to no machine learning expertise you can use this visual interface to connect to your data stored in files or SQL Server.
 
