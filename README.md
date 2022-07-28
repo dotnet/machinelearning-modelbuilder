@@ -30,7 +30,6 @@ Alternatively, you can install Model Builder from the Visual Studio marketplace
 
 - [Model Builder for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)
 - [Model Builder for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=MLNET.07)
-(https://aka.ms/mlnettemplates)
 
 ## Limitations
 
