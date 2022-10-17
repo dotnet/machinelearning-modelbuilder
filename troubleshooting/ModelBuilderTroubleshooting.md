@@ -8,6 +8,12 @@ In a newer version of ML.NET the property `Prediction` was renamed to `Predicted
 - Update ML.NET to 1.7.1
 - Update Model Builder version to the [latest]([url](https://marketplace.visualstudio.com/items?itemName=MLNET.ModelBuilder2022)) and re-train the model 
 
+## GPU Extension isn't installed
+
+You've installed the GPU extension but it's giving the message "GPU extension not installed"? **The ML.NET Model Builder extension and ML.NET Model Builder GPU Support extension versions must match.** Unfortunately older versions of Model Builder did not include this information in the error message and simply say the extension is not installed. 
+
+Open the "Manage Extensions" tool in VS and ensure you have installed the same version of Model Builder 2019/2022 and Model Builder GPU 2019/2022. There are separate extensions for each VS version. They can be installed from the [VS Marketplace](https://marketplace.visualstudio.com/search?term=ML.NET&target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Relevance). 
+
 ## Reset VS 
 
 Sometimes Model Builder doesn't update correctly and VS is still referencing older Model Builder code. If uninstalling and re-installing Model Builder doesn't work, we recommend doing a [clean install of VS](https://docs.microsoft.com/en-us/visualstudio/install/uninstall-visual-studio?view=vs-2019#remove-all-with-installcleanupexe). 
