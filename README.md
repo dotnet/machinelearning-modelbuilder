@@ -37,7 +37,7 @@ Alternatively, you can install Model Builder from the Visual Studio marketplace
 
 ## How can I contribute?
 
-Help us improve ML.NET tooling by filing issues and providing feedback on feature requests and bugs. For general guidance, see the [filing an issue guide](./File%20a%20bug.md).  
+Help us improve ML.NET tooling by filing issues and providing feedback on feature requests and bugs. For general guidance, see the [filing an issue guide](./file-an-issues.md).  
 
 ## Legal Notices
 
