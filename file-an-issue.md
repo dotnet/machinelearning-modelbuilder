@@ -12,3 +12,7 @@ Choose from one of our [issue templates](https://github.com/dotnet/machinelearni
 
 - [Report an issue now.](https://github.com/dotnet/machinelearning-modelbuilder/issues/new?assignees=&labels=&template=bug_report.md&title=)
 - [Request a new feature.](https://github.com/dotnet/machinelearning-modelbuilder/issues/new?assignees=&labels=&template=feature_request.md&title=)
+
+## Issue process
+
+For more information on how we process issues, see the [issue process guide](docs/process/IssueProcess.md).
