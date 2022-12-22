@@ -6,8 +6,9 @@ This directory contains a set of Dockerfiles for use as custom training environm
 
 | Name | Location | Description |
 | --- | --- | --- |
-| Slim | [Dockerfiles/slim/Dockerfile](./slim/Dockerfile) | Contains .components included in NET 6 SDK Dockerfile | 
-| ML.NET CLI | [Dockerfiles/mlnetcli/Dockerfile](./mlnetcli/Dockerfile) |
+| Slim | [Dockerfiles/slim/Dockerfile](./slim/Dockerfile) | Contains components included in NET 6 SDK Dockerfile | 
+| ML.NET CLI | [Dockerfiles/mlnetcli/Dockerfile](./mlnetcli/Dockerfile) | Contains the ML.NET CLI | 
+| oneDAL | [Dockerfiles/mlnetcli/Dockerfile](./onedal/Dockerfile) | Enables [Intel oneDAL hardware acceleration](https://devblogs.microsoft.com/dotnet/accelerate-ml-net-training-with-intel-onedal/) | 
 
 ## Usage
 
